@@ -1,0 +1,102 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+.pane {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.editor-pane {
+  background-color: #3a3e40;
+  position: relative;
+}
+.output-pane {
+  background-color: #f2f2f2;
+  color: #333;
+  border-left: 2px solid #555;
+}
+h2 {
+    margin: 0 0 20px 0;
+}
+
+h2 sup {
+  font-weight: 400;
+  margin-left: 5px;
+}
+form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.CodeMirror {
+  flex-grow: 1;
+  border: 1px solid #555;
+  font-size: 16px;
+  font-family: 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace;
+}
+.run-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: transparent;
+  border: 0;
+  color: #c5dce9;
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 12px;
+  top: 9px;
+  right: 10px;
+  font-weight: 700;
+}
+.run-button:hover {
+  color: #fff;
+}
+
+.phpVersion{
+
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    font-size: 13px;
+
+}
+.output-area {
+  flex-grow: 1;
+  width: 100%;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 8px;
+  box-sizing: border-box;
+  word-wrap: break-word;
+  overflow-y: auto;
+  font-size: 14px;
+}
+sup {
+  opacity: 0.5;
+}
+
+.fs-50{
+  font-size: 50px;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.mt--50{
+  margin-top: -50px;
+}
