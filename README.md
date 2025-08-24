@@ -42,6 +42,8 @@ Lightweight PHP-based code testing editor. It allows users to write, execute, an
 - Click the `RUN` button to execute the code.
 - View the output in the results pane.
 
+![Editor Screenshot](assets/images/screenshot.png)
+
 ## Dependencies
 
 - [@fontsource/open-sans](https://www.npmjs.com/package/@fontsource/open-sans)
